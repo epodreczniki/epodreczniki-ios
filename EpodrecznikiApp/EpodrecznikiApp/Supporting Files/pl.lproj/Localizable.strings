@@ -1,0 +1,317 @@
+/* 
+  Localizable.strings
+  EpodrecznikiApp
+
+  Copyright (c) 2013 PSNC. All rights reserved.
+*/
+
+/* View Controllers */
+"EPPrivacyPolicyViewController_navigationBarTitle" = "Regulamin";
+"EPPrivacyPolicyViewController_policyTextView" = "Regulamin aplikacji mobilnej \
+ \
+Aplikacja mobilna E-podręczniki Lite, stworzona na potrzeby platformy http://epodreczniki.pl, administrowanej przez Instytut Chemii Bioorganicznej PAN - Poznańskie Centrum Superkomputerowo-Sieciowe (IChB PAN PCSS), udostępnia e-podręczniki oraz uzupełniające zasoby metodyczne i dydaktyczne tworzone w ramach projektu e-podręczniki do kształcenia ogólnego – projektu współfinansowanego przez Unię Europejską w ramach Europejskiego Funduszu Społecznego. \
+ \
+Informujemy, że w czasie korzystania z serwisu, na naszych serwerach w sposób automatyczny gromadzone są następujące typy informacji o użytkownikach i ich aktywności w systemie: \
+ \
+logi, zawierające takie informacje jak adres IP, data i czas korzystania z platformy, lista odwiedzonych stron systemu, przy czym logi nie zawierają danych osobowych; \
+ \
+ustawienia personalne, które umożliwiają rozpoznanie preferowanych przez użytkownika ustawień aplikacji, zaś ich pobieranie przez użytkownika jest uzależnione od indywidualnych ustawień aplikacji; \
+ \
+Na podstawie logów i ustawień generowane są dane statystyczne przydatne dla określenia profilu użytkownika aplikacji i jego potrzeb odnośnie aplikacji. Dane te zostaną wykorzystane do wzbogacenia zawartości aplikacji i poprawy jej funkcjonalności, a także do monitorowania i administrowania ruchem na platformie oraz do celów naukowo-badawczych. \
+ \
+Używając ustawień personalnych w wyżej opisany sposób nie identyfikujemy tożsamości użytkowników na podstawie informacji przechowywanych w ustawieniach. \
+ \
+Dane dotyczące użytkowników http://epodreczniki.pl gromadzone na serwerach IChB PAN PCSS są zabezpieczone przed nieautoryzowanym dostępem i nie będą udostępniane osobom trzecim. Dostęp do aplikacji nie wymaga logowania, a więc podawania żadnych danych osobowych. Dostęp do aplikacji jest ogólnie dostępny. \
+ \
+Materiały dostępne na platformie http://epodreczniki.pl poprzez aplikację mobilną opublikowane zostaną zgodnie z zapisami Uchwały Rady Ministrów z dnia 3 kwietnia 2012 r. w sprawie rządowego programu kompetencji uczniów i nauczycieli w zakresie stosowania technologii informacyjno-komunikacyjnych „Cyfrowa szkoła”, która przewiduje, że zasoby edukacyjne wytworzone w ramach Projektu będą miały charakter otwarty, co oznacza powszechny, swobodny i darmowy dostęp w dowolnym miejscu i czasie, w tym dostęp bez ograniczeń lub zabezpieczeń technicznych oraz dowolność wykorzystania. W przypadku zasobów stanowiących utwory, przedmioty praw pokrewnych otwartość zasobów oznacza rozpowszechnianie na podstawie licencji Creative Commons Uznanie Autorstwa (CC-BY 3.0) lub innej wolnej licencji na nieograniczone, nieodpłatne i niewyłączne korzystanie z zasobów oraz ich ewentualnych opracowań, zarówno do celów komercyjnych, jak i niekomercyjnych. \
+ \
+Danych zbieranych automatycznie nie można zmienić ani usunąć. \
+ \
+Korzystając z aplikacji E-podręczniki Lite wyrażają Państwo zgodę na warunki określone powyżej.";
+
+"EPPrivacyPolicyViewController_acceptButtonTitle" = "Akceptuję";
+"EPPrivacyPolicyViewController_acceptAlertViewTitle" = "Ważne";
+"EPPrivacyPolicyViewController_acceptAlertViewMessage" = "Czy na pewno akceptujesz przeczytany regulamin i wszystkie jego postanowienia?";
+"EPPrivacyPolicyViewController_acceptAlertViewButtonYes" = "Tak";
+"EPPrivacyPolicyViewController_acceptAlertViewButtonNo" = "Nie";
+
+"EPNoInternetViewController_titleLabel" = "Brak połączenia z Internetem";
+"EPNoInternetViewController_messageLabel" = "Połączenie z siecią Internet jest potrzebne w celu pobrania danych o dostępnych e-podręcznikach. Włącz Wi-Fi lub sieć komórkową.";
+"EPNoInternetViewController_tryAgainButtonWiFi" = "Spróbuj z użyciem Wi-Fi";
+"EPNoInternetViewController_tryAgainButtonCellular" = "Spróbuj z użyciem sieci komórkowej";
+"EPNoInternetViewController_hudPleaseWait" = "Proszę czekać...";
+
+"EPAboutViewController_navigationBarTitle" = "O Aplikacji";
+"EPAboutViewController_aboutTextView" = "Aplikacja E-podręczniki LITE jest mobilnym narzędziem wspomagającym pracę z serwisem internetowym http://epodreczniki.pl, tworzonym i administrowanym przez Instytut Chemii Bioorganicznej PAN - Poznańskie Centrum Superkomputerowo-Sieciowe (IChB PAN PCSS), udostępniającym e-podręczniki oraz uzupełniające zasoby metodyczne i dydaktyczne tworzone w ramach projektu \"e-podręczniki do kształcenia ogólnego\" – projektu współfinansowanego przez Unię Europejską w ramach Europejskiego Funduszu Społecznego. \
+ \
+Aplikacja umożliwia pracę z zasobami serwisu http://epodreczniki.pl w sposób nie wymagający stałego dostępu do Internetu na urządzeniach mobilnych. \
+\
+Główne funkcje aplikacji to: \
+- wyświetlanie aktualnej listy e-podręczników; \
+- wyświetlanie szczegółowych informacji na temat e-podręczników; \
+- pobieranie i zapisywanie e-podręczników w pamięci urządzenia mobilnego; \
+- zarządzanie e-podręcznikami (usuwanie, uaktualnianie); \
+- wyświetlanie treści pobranych e-podręczników na urządzeniu mobilnym. \
+\
+Więcej informacji o projekcie oraz zasobach edukacyjnych udostępnianych w jego ramach w serwisie http://epodreczniki.pl. \
+\
+Wersja aplikacji: %@";
+
+"EPTextbooksListViewController_actionSheetOptions" = "Opcje";
+"EPTextbooksListViewController_actionSheetRefreshList" = "Odśwież listę";
+"EPTextbooksListViewController_actionSheetPrivacyPolicy" = "Regulamin";
+"EPTextbooksListViewController_actionSheetAbout" = "O Aplikacji";
+"EPTextbooksListViewController_actionSheetClose" = "Zamknij";
+"EPTextbooksListViewController_actionSheetMyAccount" = "Moje konto";
+"EPTextbooksListViewController_actionSheetAdminSettings" = "Ustawienia administracyjne";
+"EPTextbooksListViewController_actionSheetLogout" = "Wyloguj";
+"EPTextbooksListViewController_hudPleaseWait" = "Proszę czekać...";
+"EPTextbooksListViewController_hudRemoveTextbookPending" = "Proszę czekać...";
+"EPTextbooksListViewController_hudRemoveTextbookSuccess" = "E-podręcznik został usunięty";
+"EPTextbooksListViewController_hudRemoveTextbookError" = "Błąd podczas usuwania e-podręcznika";
+"EPTextbooksListViewController_noNetworkAlertViewTitle" = "Informacja";
+"EPTextbooksListViewController_noNetworkAlertViewMessage" = "Do odświeżenia listy niezbędne jest połączenie z siecią Internet";
+"EPTextbooksListViewController_noNetworkAlertViewButtonOK" = "OK";
+"EPTextbooksListViewController_confirmDeleteAlertViewTitle" = "Ostrzeżenie";
+"EPTextbooksListViewController_confirmDeleteAlertViewMessage" = "Czy na pewno chcesz usunąć ten e-podręcznik?";
+"EPTextbooksListViewController_confirmDeleteAlertViewButtonYes" = "Tak";
+"EPTextbooksListViewController_confirmDeleteAlertViewButtonNo" = "Nie";
+"EPTextbooksListViewController_confirmCancelAlertViewTitle" = "Ostrzeżenie";
+"EPTextbooksListViewController_confirmCancelAlertViewMessage" = "Czy na pewno chcesz przerwać pobieranie tego e-podręcznika?";
+"EPTextbooksListViewController_confirmCancelAlertViewButtonYes" = "Tak";
+"EPTextbooksListViewController_confirmCancelAlertViewButtonNo" = "Nie";
+"EPTextbooksListViewController_confirmDownloadAlertViewTitle" = "Pytanie";
+"EPTextbooksListViewController_confirmDownloadAlertViewMessage" = "Czy chcesz pobrać ten e-podręcznik z użyciem sieci komórkowej?\n\nDecyzję można zmienić w ustawieniach aplikacji.";
+"EPTextbooksListViewController_confirmDownloadAlertViewButtonYes" = "Tak";
+"EPTextbooksListViewController_confirmDownloadAlertViewButtonNo" = "Nie";
+"EPTextbooksListViewController_downloadErrorAlertViewButtonTitle" = "Błąd";
+"EPTextbooksListViewController_downloadErrorAlertViewButtonOk" = "OK";
+"EPTextbooksListViewController_downloadErrorAlertViewMessageNotConnected" = "Brak połączenia z siecią Wi-Fi lub brak zgody na użycie dostępnej sieci komórkowej.";
+"EPTextbooksListViewController_downloadErrorAlertViewMessageFileDoesNotExist" = "Nie można pobrać e-podręcznika. Spróbuj ponownie później.";
+"EPTextbooksListViewController_downloadErrorAlertViewMessageTimedOut" = "Upłynął czas na pobranie e-podręcznika. Spróbuj ponownie.";
+"EPTextbooksListViewController_downloadErrorAlertViewMessageNoFreeSpace" = "Brak dostępnego miejsca na urządzeniu. Spróbuj usunąć istniejące e-podręczniki lub inne dane z urządzenia.";
+"EPTextbooksListViewController_downloadErrorAlertViewMessageUnzipError" = "Błąd podczas przygotowywania e-podręcznika do użycia.";
+"EPTextbooksListViewController_downloadErrorAlertViewMessageUnknownError" = "Wystąpił nieznany bład.";
+"EPTextbooksListViewController_emptyListLabel" = "Brak dostępnych e-podręczników.\nProszę odświeżyć listę lub zmienić filtr.";
+"EPTextbooksListViewController_downloadErrorAlertViewMessageResume" = "Uruchom połączenie z siecią Internet w celu wznowienia pobierania.";
+"EPTextbooksListViewController_downloadErrorAlertViewMessageResumeYES" = "Wznów pobieranie";
+"EPTextbooksListViewController_downloadErrorAlertViewMessageResumeNO" = "Przerwij pobieranie";
+
+"EPTextbookDetailsViewController_navigationBarTitle" = "Szczegóły e-podręcznika";
+
+"EPTextbookViewController_exitButtonTitle" = "Wyjdź";
+
+"EPAppDelegate_alertRemindAboutTextbookListUpdateTitle" = "Przypomnienie";
+"EPAppDelegate_alertRemindAboutTextbookListUpdateMessage" = "Ostatnia aktualizacja listy e-podręczników miała miejsce ponad miesiąc temu. Nowe aktualizacje mogą być dostępne do pobrania.";
+"EPAppDelegate_alertRemindAboutTextbookListUpdateButtonOK" = "OK";
+
+"EPWindowsUtil_showUpdateWindowWithProxyTitle" = "Aktualizacja e-podręcznika";
+"EPWindowsUtil_showUpdateWindowWithProxyMessage" = "Czy chcesz zaktualizować e-podręcznik?\n\nTytuł: %@\nRozmiar: %.2f MB\nWersja: %@\nLicencja: %@";
+"EPWindowsUtil_showUpdateWindowWithProxyButtonYES" = "Tak";
+"EPWindowsUtil_showUpdateWindowWithProxyButtonNO" = "Nie";
+
+"EPWindowsUtil_showAppUpdateRequiredWindowTitle" = "Informacja";
+"EPWindowsUtil_showAppUpdateRequiredWindowMessage" = "W celu pobrania tego podręcznika musisz posiadać najnowsą wersję aplikacji ze sklepu iTunes App Store";
+"EPWindowsUtil_showAppUpdateRequiredWindowOK" = "Anuluj";
+"EPWindowsUtil_showAppUpdateRequiredWindowGoToStore" = "Idź do sklepu";
+
+"EPWindowsUtil_askForPermissionToPlaybackVideoTitle" = "Pytanie";
+"EPWindowsUtil_askForPermissionToPlaybackVideoMessage" = "Czy chcesz odtworzyć film wideo?";
+"EPWindowsUtil_askForPermissionToPlaybackVideoCancel" = "Anuluj";
+"EPWindowsUtil_askForPermissionToPlaybackVideoPlay" = "Odtwórz";
+
+"EPWindowsUtil_showInvalidPasswordWindowTitle" = "Błąd";
+"EPWindowsUtil_showInvalidPasswordWindowMessage" = "Nieprawidłowe hasło";
+"EPWindowsUtil_showInvalidPasswordWindowButtonOk" = "Zamknij";
+
+"EPWindowsUtil_askForPasswordToAccessAdminSettingsTitle" = "Podaj hasło";
+"EPWindowsUtil_askForPasswordToAccessAdminSettingsOk" = "Wejdź";
+"EPWindowsUtil_askForPasswordToAccessAdminSettingsCancel" = "Anuluj";
+
+"EPWindowsUtil_showErrorMessageWithActionTitle" = "Błąd";
+"EPWindowsUtil_showErrorMessageWithActionCancel" = "OK";
+"EPWindowsUtil_showInfoMessageWithActionTitle" = "Informacja";
+"EPWindowsUtil_showInfoMessageWithActionCancel" = "OK";
+
+"EPPrivacyPolicyViewController_chooseVariantAlertViewTitle" = "Pytanie";
+"EPPrivacyPolicyViewController_chooseVariantAlertViewMessage" = "Wybierz wariant podręcznika";
+"EPPrivacyPolicyViewController_chooseVariantAlertViewButtonStudent" = "Uczeń";
+"EPPrivacyPolicyViewController_chooseVariantAlertViewButtonTeacher" = "Nauczyciel";
+
+"EPExternalWebviewViewController_closeButtonTitle" = "Zamknij";
+
+"EPTocViewController_tocTitle" = "Spis treści";
+"EPTocViewController_textbookList" = "Zamknij e-podręcznik";
+"EPTocViewController_return" = "Powrót";
+
+"EPTextbookPagerViewController_actionSheetOptionsTitle" = "Opcje";
+"EPTextbookPagerViewController_textbookListButtonTitle" = "Zamknij e-podręcznik";
+"EPTextbookPagerViewController_fontIncreaseButtonTitle" = "Powiększ tekst";
+"EPTextbookPagerViewController_fontDecreaseButtonTitle" = "Pomniejsz tekst";
+"EPTextbookPagerViewController_showButtonsTitle" = "Pokaż przyciski";
+"EPTextbookPagerViewController_hideButtonsTitle" = "Ukryj przyciski";
+"EPTextbookPagerViewController_closeButtonTitle" = "Zamknij";
+"EPTextbookPagerViewController_historyBackButtonTitle" = "Powrót";
+
+/* User Interface */
+"EPBackButtonItem_title" = "Wróć";
+
+/* Login */
+"EPLoginChooseUserCell_closeButtonTitle" = "Zamknij";
+"EPLoginChooseUserCell_chooseUserTextFieldPlaceholder" = "Wybierz konto";
+"EPLoginPasswordCell_passwordTextFieldPlaceholder" = "Hasło";
+"EPLoginButtonsCell_loginButtonTitle" = "Zaloguj";
+"EPLoginButtonsCell_recoverPasswordButtonTitle" = "Zapomniałeś hasła?";
+"EPLoginButtonsCell_createAccountButtonTitle" = "Utwórz nowe konto";
+"EPLoginUserViewController_navigationBarTitle" = "Ekran logowania";
+"EPLoginUserViewController_errorMessagePasswordInvalid" = "Podane hasło jest nieprawidłowe";
+
+"EPUserRecoverPasswordViewController_navigationBarTitle" = "Odzyskiwanie hasła";
+"EPUserRecoverPasswordViewController_cancelButtonTitle" = "Anuluj";
+"EPUserRecoverPasswordViewController_changePasswordButtonTitle" = "Zmień hasło";
+"EPUserRecoverPasswordViewController_answerTextFieldPlaceholder" = "Odpowiedź";
+"EPUserRecoverPasswordViewController_passwordTextFieldPlaceholder" = "Hasło";
+"EPUserRecoverPasswordViewController_repeatPasswordTextFieldPlaceholder" = "Powtórz hasło";
+"EPUserRecoverPasswordViewController_sectionsQuestion" = "Odpowiedz na pytanie";
+"EPUserRecoverPasswordViewController_sectionsPasswords" = "Wprowadź nowe hasło";
+"EPUserRecoverPasswordViewController_errorAnswerInvalid" = "Nieprawidłowa odpowiedź";
+"EPUserRecoverPasswordViewController_errorPasswordEmpty" = "Hasło nie może być puste";
+"EPUserRecoverPasswordViewController_errorPasswordsAreDifferent" = "Hasła nie są identyczne";
+"EPUserRecoverPasswordViewController_errorPasswordTooShort" = "Hasło powinno mieć co najmniej 6 znaków";
+"EPUserRecoverPasswordViewController_alertSuccessTitle" = "Informacja";
+"EPUserRecoverPasswordViewController_alertSuccessMessage" = "Hasło zostało zmienione";
+"EPUserRecoverPasswordViewController_alertSuccessOk" = "OK";
+
+"EPUserCreateViewController_navigationBarTitle" = "Utwórz konto";
+"EPUserCreateViewController_navigationBarTitleEdit" = "Edytuj konto";
+"EPUserCreateViewController_cancelButtonTitle" = "Anuluj";
+"EPUserCreateViewController_createAccountButtonTitle" = "Utwórz konto";
+"EPUserCreateViewController_createAccountButtonTitleEdit" = "Aktualizuj konto";
+"EPUserCreateViewController_warningLabel" = "Pierwsze utworzone konto jest kontem administracyjnym. Będzie służyło do zarządzania innymi kontami utworzonymi w przyszłości.";
+"EPUserCreateViewController_loginNameTextFieldPlaceholder" = "Nazwa konta";
+"EPUserCreateViewController_passwordTextFieldPlaceholder" = "Hasło";
+"EPUserCreateViewController_confirmPasswordTextFieldPlaceholder" = "Potwierdź hasło";
+"EPUserCreateViewController_recoveryQuestionTextFieldPlaceholder" = "Pytanie odzyskiwania";
+"EPUserCreateViewController_recoveryAnswerTextFieldPlaceholder" = "Odpowiedź odzyskiwania";
+"EPUserCreateViewController_sectionWarning" = "Ostrzeżenie";
+"EPUserCreateViewController_sectionLogin" = "Dane logowania";
+"EPUserCreateViewController_sectionRecovery" = "Odzyskiwanie hasła";
+"EPUserCreateViewController_areInputsValidEmptyLogin" = "Nazwa konta nie może być pusta";
+"EPUserCreateViewController_areInputsValidOccupiedLogin" = "Nazwa konta jest zajęta. Proszę wybrać inną.";
+"EPUserCreateViewController_areInputsValidEmptyPassword" = "Hasło nie może być puste";
+"EPUserCreateViewController_areInputsValidWeakPassword" = "Hasło powinno mieć co najmniej 6 znaków";
+"EPUserCreateViewController_areInputsValidDifferentPasswords" = "Hasła nie są identyczne";
+"EPUserCreateViewController_areInputsValidEmptyRecovery" = "Pytanie oraz odpowiedź odzyskiwania nie mogą być puste";
+"EPUserCreateViewController_createAccountButtonActionEditSuccess" = "Konto zostało pomyślnie zaktualizowane";
+"EPUserCreateViewController_createAccountButtonActionCreateSuccess" = "Konto zostało pomyślnie utworzone";
+
+"EPUserSettingsViewController_navigationBarTitle" = "Moje konto";
+"EPUserSettingsViewController_cancelButtonTitle" = "Zamknij";
+"EPUserSettingsViewController_editAccountButtonTitle" = "Edytuj konto";
+"EPUserSettingsViewController_changeFilterButtonTitle" = "Zmień filtr listy";
+"EPUserSettingsViewController_textbookVariantSegmentedControlStudent" = "Uczeń";
+"EPUserSettingsViewController_textbookVariantSegmentedControlTeacher" = "Nauczyciel";
+"EPUserSettingsViewController_loginModeSegmentedControlWithPass" = "Tak";
+"EPUserSettingsViewController_loginModeSegmentedControlNoPass" = "Nie";
+"EPUserSettingsViewController_listModeSegmentedControlCovers" = "Okładki";
+"EPUserSettingsViewController_listModeSegmentedControlList" = "Lista";
+"EPUserSettingsViewController_sectionsEditAccount" = "Szczegóły konta";
+"EPUserSettingsViewController_sectionsTextbookVariant" = "Wariant e-podręcznika";
+"EPUserSettingsViewController_sectionsLoginMode" = "Wymagaj hasła do zalogowania";
+"EPUserSettingsViewController_sectionsListMode" = "Układ kolekcji e-podręczników";
+"EPUserSettingsViewController_sectionsFilter" = "Filtrowanie listy e-podręczników";
+
+"EPUserDetailsViewController_savePasswordButtonTitle" = "Zapisz hasło";
+"EPUserDetailsViewController_deleteAccountButtonTitle" = "Usuń konto";
+"EPUserDetailsViewController_allowDownloadAndUpdateSegmentedControlAllow" = "Pozwól";
+"EPUserDetailsViewController_allowDownloadAndUpdateSegmentedControlDeny" = "Zabroń";
+"EPUserDetailsViewController_sectionPassword" = "Ustaw nowe hasło";
+"EPUserDetailsViewController_sectionAllowDownload" = "Pozwól pobierać, usuwać i aktualizować e-podręczniki";
+"EPUserDetailsViewController_sectionDeleteUser" = "Usuń konto bezpowrotnie";
+"EPUserDetailsViewController_alertDeleteAccountTitle" = "Ostrzeżenie";
+"EPUserDetailsViewController_alertDeleteAccountMessage" = "Czy na pewno chcesz usunąć to konto?";
+"EPUserDetailsViewController_alertDeleteAccountYes" = "Tak";
+"EPUserDetailsViewController_alertDeleteAccountNo" = "Nie";
+"EPUserDetailsViewController_alertAllowDownloadTitle" = "Informacja";
+"EPUserDetailsViewController_alertAllowDownloadMessageAllow" = "Użytkownik może teraz pobierać, usuwać i aktualizować współdzielone e-podręczniki";
+"EPUserDetailsViewController_alertAllowDownloadMessageDeny" = "Użytkownik nie może zarządzać e-podręcznikami";
+"EPUserDetailsViewController_alertAllowDownloadOk" = "OK";
+"EPUserDetailsViewController_alertPasswordWeakTitle" = "Błąd";
+"EPUserDetailsViewController_alertPasswordWeakMessage" = "Hasło powinno mieć co najmniej 6 znaków";
+"EPUserDetailsViewController_alertPasswordWeakOk" = "OK";
+"EPUserDetailsViewController_alertPasswordChangedTitle" = "Informacja";
+"EPUserDetailsViewController_alertPasswordChangedMessage" = "Hasło zostało zmienione";
+"EPUserDetailsViewController_alertPasswordChangedOk" = "OK";
+"EPUserDetailsViewController_passwordTextFieldPlaceholder" = "Hasło";
+
+"EPAdminSettingsViewController_navigationBarTitle" = "Ustawienia administracyjne";
+"EPAdminSettingsViewController_cancelButtonTitle" = "Zamknij";
+"EPAdminSettingsViewController_sectionUsers" = "Konta";
+
+"EPAdminStaticSettingsViewController_sectionCreateAccountAtLoginScreen" = "Pozwól na dodawanie kont z ekranu logowania";
+"EPAdminStaticSettingsViewController_sectionCellular" = "Pobieraj e-podręczniki z użyciem sieci komórkowej (3G, LTE)";
+"EPAdminStaticSettingsViewController_sectionCreateAdmin" = "Dodaj nowe konto";
+"EPAdminStaticSettingsViewController_sectionCreateUser" = "Dodaj nowe konto";
+"EPAdminStaticSettingsViewController_createAdminButtonTitle" = "Utwórz konto administratora";
+"EPAdminStaticSettingsViewController_createUserButtonTitle" = "Utwórz nowe konto";
+"EPAdminStaticSettingsViewController_createNewAccountSegmentedControlAllow" = "Pozwól";
+"EPAdminStaticSettingsViewController_createNewAccountSegmentedControlDeny" = "Zabroń";
+"EPAdminStaticSettingsViewController_cellularNetworkSegmentedControlAllow" = "Pozwól";
+"EPAdminStaticSettingsViewController_cellularNetworkSegmentedControlDeny" = "Zabroń";
+
+"EPTextbookFilterViewController_navigationBarTitle" = "Zmień filtr listy";
+"EPTextbookFilterViewController_cellTitleNoFilter" = "Pokaż wszystkie e-podręczniki";
+"EPTextbookFilterViewController_cellTitleFilterByEducationLevel" = "Filtruj wg etapu edukacyjnego";
+"EPTextbookFilterViewController_cellTitleFilterBySubject" = "Filtruj wg przedmiotu";
+
+/* Accessability */
+"Accessability_downloadTextbook" = "Pobierz e-podręcznik";
+"Accessability_updateTextbook" = "Aktualizuj e-podręcznik";
+"Accessability_deleteTextbook" = "Usuń e-podręcznik";
+"Accessability_readTextbook" = "Czytaj e-podręcznik";
+"Accessability_bookmarksAndNotes" = "Zakładki i notatki";
+"Accessability_textbookDetails" = "Szczegóły e-podręcznika";
+"Accessability_stopDownloadTextbook" = "Przerwij pobieranie";
+"Accessability_stateDownloadingProgress" = "Stan pobierania %d%%";
+"Accessability_stateUnpackingProgress" = "Stan wypakowywania %d%%";
+"Accessability_stateToDownload" = "Stan e-podręcznika, niepobrany";
+"Accessability_stateDownloading" = "Stan e-podręcznika, pobierany";
+"Accessability_stateNormal" = "Stan e-podręcznika, pobrany";
+"Accessability_stateToUpdate" = "Stan e-podręcznika, do aktualizacji";
+"Accessability_stateUpdating" = "Stan e-podręcznika, aktualizowany";
+"Accessability_options" = "Opcje";
+"Accessability_announcementDownloaded" = "E-podręcznik został pobrany";
+"Accessability_announcementUpdated" = "E-podręcznik został zaktualizowany";
+"Accessability_announcementDeleted" = "E-podręcznik został usunięty";
+"Accessability_announcementRefreshed" = "Zakończono odświeżanie";
+
+"Accessability_navigationFontMinus" = "Zmniejsz rozmiar czcionki";
+"Accessability_navigationFontPlus" = "Zwiększ rozmiar czcionki";
+"Accessability_navigationList" = "Spis treści";
+"Accessability_navigationArrowLeft" = "Poprzedni moduł";
+"Accessability_navigationArrowRight" = "Następny moduł";
+
+/* Notes */
+"EPNoteEditTableViewController_titleBookmark" = "Zakładka";
+"EPNoteEditTableViewController_titleNote" = "Notatka";
+"EPNoteEditTableViewController_cancelButton" = "Anuluj";
+"EPNoteEditTableViewController_closeButton" = "Zamknij";
+"EPNoteEditTableViewController_editButton" = "Edytuj";
+"EPNoteEditTableViewController_saveButton" = "Zapisz";
+"EPNoteEditTableViewController_deleteButton" = "Usuń";
+"EPNoteEditTableViewController_newNoteDefaultName" = "Nowa notatka";
+"EPNoteEditTableViewController_headerContent" = "Treść notatki";
+"EPNoteEditTableViewController_headerName" = "Nazwa";
+"EPNoteEditTableViewController_windowTitle" = "Notatka/zakładka";
+"EPNoteEditTableViewController_notesColor" = "Kolor notatki";
+"EPNoteEditTableViewController_bookmarkColor" = "Kolor zakładki";
+"EPTextbookPagerViewController_drawerManuLabel" = "Notatki";
+"EPNotesDrawerListViewController_backButton" = "Powrót";
+"EPNotesDrawerListViewController_WarningTeachersOnlyTitle" = "Strona dla nauczyciela";
+"EPNotesDrawerListViewController_WarningTeachersOnlyText" = "Jako uczeń nie masz dostępu do wybranej strony";
+"EPTextbookPageContentViewController_addNoteMenuOption" = "Dodaj notatkę";
+"EPTextbookPageContentViewController_addBookmarkMenuOption" = "Dodaj zakładkę";
+"EPNotesDrawerListViewController_switchNotes" = "Notatki";
+"EPNotesDrawerListViewController_switchBookmarks" = "Zakładki";
+"EPNotesDrawerListViewController_labelNoNotes" = "Brak notatek";
+"EPNotesDrawerListViewController_labelNoBookmarks" = "Brak zakładek";

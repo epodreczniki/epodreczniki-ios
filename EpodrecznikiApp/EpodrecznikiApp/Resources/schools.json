@@ -1,0 +1,11 @@
+[
+    ["II",  "4", "Szkoła Podstawowa",       "Klasa 4"],
+    ["II",  "5", "Szkoła Podstawowa",       "Klasa 5"],
+    ["II",  "6", "Szkoła Podstawowa",       "Klasa 6"],
+    ["III", "1", "Szkoła Gimnazjalna",      "Klasa 1"],
+    ["III", "2", "Szkoła Gimnazjalna",      "Klasa 2"],
+    ["III", "3", "Szkoła Gimnazjalna",      "Klasa 3"],
+    ["IV",  "1", "Szkoła Ponadgimnazjalna", "Klasa 1"],
+    ["IV",  "2", "Szkoła Ponadgimnazjalna", "Klasa 2"],
+    ["IV",  "3", "Szkoła Ponadgimnazjalna", "Klasa 3"]
+]

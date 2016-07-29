@@ -1,0 +1,35 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_7_0
+#error "This project uses features only available in iOS SDK 7.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <QuartzCore/QuartzCore.h>
+
+    #import "NSObject+Epodreczniki.h"
+    #import "NSFileManager+Epodreczniki.h"
+    #import "UIApplication+Epodreczniki.h"
+    #import "UIColor+Epodreczniki.h"
+    #import "UIDevice+Epodreczniki.h"
+    #import "UIImage+Epodreczniki.h"
+    #import "UIPageViewController+Epodreczniki.h"
+    #import "UIScreen+Epodreczniki.h"
+    #import "UIView+Epodreczniki.h"
+    #import "FMResultSet+FMResultSet_Epodreczniki.h"
+
+    #import "EPMacros.h"
+    #import "EPTypes.h"
+    #import "EPConstants.h"
+    #import "EPFunctions.h"
+    #import "EPConfiguration.h"
+
+#endif

@@ -1,0 +1,317 @@
+/* 
+  Localizable.strings
+  EpodrecznikiApp
+
+  Copyright (c) 2013 PSNC. All rights reserved.
+*/
+
+/* View Controllers */
+"EPPrivacyPolicyViewController_navigationBarTitle" = "Rules";
+"EPPrivacyPolicyViewController_policyTextView" = "Rules \
+\
+The E-podręczniki Lite mobile application created for the needs of the http://epodreczniki.pl website administered by the Poznań Supercomputing and Networking Centre affiliated with the Institute of Bioorganic Chemistry of the Polish Academy of Sciences provides general education e-textbooks and supplementary teaching materials developed in the e-textbook project co-financed by the European Social Fund of the European Union. \
+\
+Note that during the use of our website, our servers will automatically gather the following information on users and their system activity: \
+\
+log files containing IP addresses, date and time of use, lists of visited system pages; the log files contain no personal data; \
+\
+personal settings which enable the recognition of the application settings preferred by a given user; their downloading by users depends on individual application settings; \
+\
+The log files and settings are used to generate statistics which help define application user profiles and their application-related needs. The data is used to enrich application content, improve its functionality, monitor and administer website traffic and for scientific research. \
+\
+When using personal settings for the above purposes, we do not identify individual users based on the information stored in system settings. \
+\
+Any data on the http://epodreczniki.pl users held on the website of the Supercomputing and Networking Centre is protected from unauthorized access. No such data will be disclosed to any third parties. As no logging in is required to access the application, no personal data needs to be given. The application is accessible to the general public. \
+\
+All content posted on http://epodreczniki.pl and available through the mobile application has been published in keeping with the Resolution of the Council of Ministers of 3 April 2012 on the governmental student and teacher competence programme The Digital School concerning the use of ICT technologies which provides for any educational resources developed within the framework of the Project to be open, i.e. accessible freely and at no charge from any place and at any time, without restrictions or technical protections and for any purpose. For resources which meet the definition of works and which are subject to derivative rights, resource openness refers to resource dissemination under a Creative Commons Author Recognition (CC-BY 3.0) license or under another free license, allowing for the unlimited, free and non-exclusive use of resources and any of their elaborations for commercial or non-commercial purposes. \
+\
+None of the data that has been automatically gathered can be altered or removed. \
+\
+By using the E-podręczniki Lite application, you consent to comply with the above terms and conditions.";
+
+"EPPrivacyPolicyViewController_acceptButtonTitle" = "Accept";
+"EPPrivacyPolicyViewController_acceptAlertViewTitle" = "Important";
+"EPPrivacyPolicyViewController_acceptAlertViewMessage" = "Do you accept the rules?";
+"EPPrivacyPolicyViewController_acceptAlertViewButtonYes" = "YES";
+"EPPrivacyPolicyViewController_acceptAlertViewButtonNo" = "NO";
+
+"EPNoInternetViewController_titleLabel" = "Network not available";
+"EPNoInternetViewController_messageLabel" = "Internet connection is required to download information about e-textbooks. Please turn on Wi-Fi or cellular network.";
+"EPNoInternetViewController_tryAgainButtonWiFi" = "Try using Wi-Fi";
+"EPNoInternetViewController_tryAgainButtonCellular" = "Try using cellular network";
+"EPNoInternetViewController_hudPleaseWait" = "Please wait...";
+
+"EPAboutViewController_navigationBarTitle" = "About";
+"EPAboutViewController_aboutTextView" = "The E-podręczniki Lite application (e-podręczniki is Polish for e-textbooks) is a mobile tool supporting the use of the http://epodreczniki.pl website developed and administered by the Poznań Supercomputing and Networking Centre affiliated with the Institute of Bioorganic Chemistry of the Polish Academy of Sciences which supplements e-textbooks and provides complementary teaching materials for the “general education e-textbooks” project co-financed by the European Social Fund of the European Union. \
+\
+The application supports the off-line use of resources available on the http://epodreczniki.pl website on mobile devices. \
+\
+The application’s main functionalities are to: \
+- display an up-to-date list of e-textbooks; \
+- display detailed descriptions of e-textbooks; \
+- download and save e-textbooks on mobile devices; \
+- manage (remove, update) e-textbooks; \
+- display the content of downloaded e-textbooks on mobile devices.\
+\
+For more information on the project and its educational resources, visit the http://epodreczniki.pl website. \
+\
+App version: %@";
+
+"EPTextbooksListViewController_actionSheetOptions" = "Options";
+"EPTextbooksListViewController_actionSheetRefreshList" = "Refresh list";
+"EPTextbooksListViewController_actionSheetPrivacyPolicy" = "Rules";
+"EPTextbooksListViewController_actionSheetAbout" = "About";
+"EPTextbooksListViewController_actionSheetClose" = "Close";
+"EPTextbooksListViewController_actionSheetMyAccount" = "My account";
+"EPTextbooksListViewController_actionSheetAdminSettings" = "App settings";
+"EPTextbooksListViewController_actionSheetLogout" = "Logout";
+"EPTextbooksListViewController_hudPleaseWait" = "Please wait...";
+"EPTextbooksListViewController_hudRemoveTextbookPending" = "Please wait...";
+"EPTextbooksListViewController_hudRemoveTextbookSuccess" = "Successfully removed e-textbook";
+"EPTextbooksListViewController_hudRemoveTextbookError" = "Error occurred while removing e-textbook";
+"EPTextbooksListViewController_noNetworkAlertViewTitle" = "Information";
+"EPTextbooksListViewController_noNetworkAlertViewMessage" = "Network connection is required to refresh list";
+"EPTextbooksListViewController_noNetworkAlertViewButtonOK" = "OK";
+"EPTextbooksListViewController_confirmDeleteAlertViewTitle" = "Warning";
+"EPTextbooksListViewController_confirmDeleteAlertViewMessage" = "Are you sure you want to remove this e-textbook?";
+"EPTextbooksListViewController_confirmDeleteAlertViewButtonYes" = "Yes";
+"EPTextbooksListViewController_confirmDeleteAlertViewButtonNo" = "No";
+"EPTextbooksListViewController_confirmCancelAlertViewTitle" = "Warning";
+"EPTextbooksListViewController_confirmCancelAlertViewMessage" = "Are you sure you want to cancel the download of this e-textbook?";
+"EPTextbooksListViewController_confirmCancelAlertViewButtonYes" = "Yes";
+"EPTextbooksListViewController_confirmCancelAlertViewButtonNo" = "No";
+"EPTextbooksListViewController_confirmDownloadAlertViewTitle" = "Question";
+"EPTextbooksListViewController_confirmDownloadAlertViewMessage" = "Do you want to download this e-textbook using cellular network?\n\nYou can change this decision in app settings.";
+"EPTextbooksListViewController_confirmDownloadAlertViewButtonYes" = "Yes";
+"EPTextbooksListViewController_confirmDownloadAlertViewButtonNo" = "No";
+"EPTextbooksListViewController_downloadErrorAlertViewButtonTitle" = "Error";
+"EPTextbooksListViewController_downloadErrorAlertViewButtonOk" = "OK";
+"EPTextbooksListViewController_downloadErrorAlertViewMessageNotConnected" = "Device is not connected to a Wi-Fi network or no permission was granted to use the available cellular network.";
+"EPTextbooksListViewController_downloadErrorAlertViewMessageFileDoesNotExist" = "E-textbook cannot be downloaded. Try again later.";
+"EPTextbooksListViewController_downloadErrorAlertViewMessageTimedOut" = "E-textbook download has timed out. Try again.";
+"EPTextbooksListViewController_downloadErrorAlertViewMessageNoFreeSpace" = "Not enough storage is available. Try to remove existing e-textbooks or other data from the device.";
+"EPTextbooksListViewController_downloadErrorAlertViewMessageUnzipError" = "Error occurred while preparing e-textbook for first use.";
+"EPTextbooksListViewController_downloadErrorAlertViewMessageUnknownError" = "An unknown error occurred.";
+"EPTextbooksListViewController_emptyListLabel" = "No e-textbooks available.\nPlease refresh list or change filter.";
+"EPTextbooksListViewController_downloadErrorAlertViewMessageResume" = "Please turn on Internet connection in order to resume download.";
+"EPTextbooksListViewController_downloadErrorAlertViewMessageResumeYES" = "Resume download";
+"EPTextbooksListViewController_downloadErrorAlertViewMessageResumeNO" = "Cancel download";
+
+"EPTextbookDetailsViewController_navigationBarTitle" = "E-textbook details";
+
+"EPTextbookViewController_exitButtonTitle" = "Exit";
+
+"EPAppDelegate_alertRemindAboutTextbookListUpdateTitle" = "Reminder";
+"EPAppDelegate_alertRemindAboutTextbookListUpdateMessage" = "Last update of e-textbooks list was over a month ago. There may be new updates available.";
+"EPAppDelegate_alertRemindAboutTextbookListUpdateButtonOK" = "OK";
+
+"EPWindowsUtil_showUpdateWindowWithProxyTitle" = "Update";
+"EPWindowsUtil_showUpdateWindowWithProxyMessage" = "Do you want to update the e-textbook?\n\nTitle: %@\nSize: %.2f MB\nVersion: %@\nLicense: %@";
+"EPWindowsUtil_showUpdateWindowWithProxyButtonYES" = "YES";
+"EPWindowsUtil_showUpdateWindowWithProxyButtonNO" = "NO";
+
+"EPWindowsUtil_showAppUpdateRequiredWindowTitle" = "Info";
+"EPWindowsUtil_showAppUpdateRequiredWindowMessage" = "To download this textbook you need to update this app from iTunes App Store";
+"EPWindowsUtil_showAppUpdateRequiredWindowOK" = "Cancel";
+"EPWindowsUtil_showAppUpdateRequiredWindowGoToStore" = "Go to store";
+
+"EPWindowsUtil_askForPermissionToPlaybackVideoTitle" = "Question";
+"EPWindowsUtil_askForPermissionToPlaybackVideoMessage" = "Do you want to play video?";
+"EPWindowsUtil_askForPermissionToPlaybackVideoCancel" = "Cancel";
+"EPWindowsUtil_askForPermissionToPlaybackVideoPlay" = "Play";
+
+"EPWindowsUtil_showInvalidPasswordWindowTitle" = "Error";
+"EPWindowsUtil_showInvalidPasswordWindowMessage" = "Invalid password";
+"EPWindowsUtil_showInvalidPasswordWindowButtonOk" = "Cancel";
+
+"EPWindowsUtil_askForPasswordToAccessAdminSettingsTitle" = "Enter admin password";
+"EPWindowsUtil_askForPasswordToAccessAdminSettingsOk" = "Enter";
+"EPWindowsUtil_askForPasswordToAccessAdminSettingsCancel" = "Cancel";
+
+"EPWindowsUtil_showErrorMessageWithActionTitle" = "Error";
+"EPWindowsUtil_showErrorMessageWithActionCancel" = "OK";
+"EPWindowsUtil_showInfoMessageWithActionTitle" = "Information";
+"EPWindowsUtil_showInfoMessageWithActionCancel" = "OK";
+
+"EPPrivacyPolicyViewController_chooseVariantAlertViewTitle" = "Question";
+"EPPrivacyPolicyViewController_chooseVariantAlertViewMessage" = "Choose textbook variant";
+"EPPrivacyPolicyViewController_chooseVariantAlertViewButtonStudent" = "Student";
+"EPPrivacyPolicyViewController_chooseVariantAlertViewButtonTeacher" = "Teacher";
+
+"EPExternalWebviewViewController_closeButtonTitle" = "Close";
+
+"EPTocViewController_tocTitle" = "Table of contents";
+"EPTocViewController_textbookList" = "Close e-textbook";
+"EPTocViewController_return" = "Back";
+
+"EPTextbookPagerViewController_actionSheetOptionsTitle" = "Options";
+"EPTextbookPagerViewController_textbookListButtonTitle" = "Close e-textbook";
+"EPTextbookPagerViewController_fontIncreaseButtonTitle" = "Increase font size";
+"EPTextbookPagerViewController_fontDecreaseButtonTitle" = "Decrease font size";
+"EPTextbookPagerViewController_showButtonsTitle" = "Show buttons";
+"EPTextbookPagerViewController_hideButtonsTitle" = "Hide buttons";
+"EPTextbookPagerViewController_closeButtonTitle" = "Close";
+"EPTextbookPagerViewController_historyBackButtonTitle" = "Back";
+
+/* User Interface */
+"EPBackButtonItem_title" = "Back";
+
+/* Login */
+"EPLoginChooseUserCell_closeButtonTitle" = "Close";
+"EPLoginChooseUserCell_chooseUserTextFieldPlaceholder" = "Choose account";
+"EPLoginPasswordCell_passwordTextFieldPlaceholder" = "Password";
+"EPLoginButtonsCell_loginButtonTitle" = "Log in";
+"EPLoginButtonsCell_recoverPasswordButtonTitle" = "Forgot password?";
+"EPLoginButtonsCell_createAccountButtonTitle" = "Create new account";
+"EPLoginUserViewController_navigationBarTitle" = "Login screen";
+"EPLoginUserViewController_errorMessagePasswordInvalid" = "Given password is incorrect";
+
+"EPUserRecoverPasswordViewController_navigationBarTitle" = "Password Recovery";
+"EPUserRecoverPasswordViewController_cancelButtonTitle" = "Cancel";
+"EPUserRecoverPasswordViewController_changePasswordButtonTitle" = "Change password";
+"EPUserRecoverPasswordViewController_answerTextFieldPlaceholder" = "Answer";
+"EPUserRecoverPasswordViewController_passwordTextFieldPlaceholder" = "Password";
+"EPUserRecoverPasswordViewController_repeatPasswordTextFieldPlaceholder" = "Confirm password";
+"EPUserRecoverPasswordViewController_sectionsQuestion" = "Answer the recovery question";
+"EPUserRecoverPasswordViewController_sectionsPasswords" = "Enter new password";
+"EPUserRecoverPasswordViewController_errorAnswerInvalid" = "Invalid recovery answer";
+"EPUserRecoverPasswordViewController_errorPasswordEmpty" = "Password cannot be empty";
+"EPUserRecoverPasswordViewController_errorPasswordsAreDifferent" = "Passwords are different";
+"EPUserRecoverPasswordViewController_errorPasswordTooShort" = "Password should have at least 6 characters";
+"EPUserRecoverPasswordViewController_alertSuccessTitle" = "Info";
+"EPUserRecoverPasswordViewController_alertSuccessMessage" = "Password was changed";
+"EPUserRecoverPasswordViewController_alertSuccessOk" = "OK";
+
+"EPUserCreateViewController_navigationBarTitle" = "Create account";
+"EPUserCreateViewController_navigationBarTitleEdit" = "Edit account";
+"EPUserCreateViewController_cancelButtonTitle" = "Cancel";
+"EPUserCreateViewController_createAccountButtonTitle" = "Create account";
+"EPUserCreateViewController_createAccountButtonTitleEdit" = "Update account";
+"EPUserCreateViewController_warningLabel" = "The first created account will be an admin account. It will be used to manage other accounts in the future.";
+"EPUserCreateViewController_loginNameTextFieldPlaceholder" = "Account name";
+"EPUserCreateViewController_passwordTextFieldPlaceholder" = "Password";
+"EPUserCreateViewController_confirmPasswordTextFieldPlaceholder" = "Confirm password";
+"EPUserCreateViewController_recoveryQuestionTextFieldPlaceholder" = "Recovery question";
+"EPUserCreateViewController_recoveryAnswerTextFieldPlaceholder" = "Recovery answer";
+"EPUserCreateViewController_sectionWarning" = "Warning";
+"EPUserCreateViewController_sectionLogin" = "Login data";
+"EPUserCreateViewController_sectionRecovery" = "Password recovery";
+"EPUserCreateViewController_areInputsValidEmptyLogin" = "Login cannot be empty";
+"EPUserCreateViewController_areInputsValidOccupiedLogin" = "Login is in use. Please choose another one.";
+"EPUserCreateViewController_areInputsValidEmptyPassword" = "Password cannot be empty";
+"EPUserCreateViewController_areInputsValidWeakPassword" = "Password should have at least 6 characters";
+"EPUserCreateViewController_areInputsValidDifferentPasswords" = "Passwords are different";
+"EPUserCreateViewController_areInputsValidEmptyRecovery" = "Recovery question and answer cannot be empty";
+"EPUserCreateViewController_createAccountButtonActionEditSuccess" = "Account was successfully updated";
+"EPUserCreateViewController_createAccountButtonActionCreateSuccess" = "Account was successfully created";
+
+"EPUserSettingsViewController_navigationBarTitle" = "My account";
+"EPUserSettingsViewController_cancelButtonTitle" = "Close";
+"EPUserSettingsViewController_editAccountButtonTitle" = "Edit account";
+"EPUserSettingsViewController_changeFilterButtonTitle" = "Change filter";
+"EPUserSettingsViewController_textbookVariantSegmentedControlStudent" = "Student";
+"EPUserSettingsViewController_textbookVariantSegmentedControlTeacher" = "Teacher";
+"EPUserSettingsViewController_loginModeSegmentedControlWithPass" = "Yes";
+"EPUserSettingsViewController_loginModeSegmentedControlNoPass" = "No";
+"EPUserSettingsViewController_listModeSegmentedControlCovers" = "Covers";
+"EPUserSettingsViewController_listModeSegmentedControlList" = "List";
+"EPUserSettingsViewController_sectionsEditAccount" = "Account details";
+"EPUserSettingsViewController_sectionsTextbookVariant" = "Choose e-textbook variant";
+"EPUserSettingsViewController_sectionsLoginMode" = "Require password to login";
+"EPUserSettingsViewController_sectionsListMode" = "Textbooks list mode";
+"EPUserSettingsViewController_sectionsFilter" = "Textbooks list filter";
+
+"EPUserDetailsViewController_savePasswordButtonTitle" = "Save password";
+"EPUserDetailsViewController_deleteAccountButtonTitle" = "Delete account";
+"EPUserDetailsViewController_allowDownloadAndUpdateSegmentedControlAllow" = "Allow";
+"EPUserDetailsViewController_allowDownloadAndUpdateSegmentedControlDeny" = "Deny";
+"EPUserDetailsViewController_sectionPassword" = "Set new password";
+"EPUserDetailsViewController_sectionAllowDownload" = "Allow to download, remove, update e-textbooks";
+"EPUserDetailsViewController_sectionDeleteUser" = "Delete account permanently";
+"EPUserDetailsViewController_alertDeleteAccountTitle" = "Warning";
+"EPUserDetailsViewController_alertDeleteAccountMessage" = "Are you sure you want to delete this account?";
+"EPUserDetailsViewController_alertDeleteAccountYes" = "Yes";
+"EPUserDetailsViewController_alertDeleteAccountNo" = "No";
+"EPUserDetailsViewController_alertAllowDownloadTitle" = "Information";
+"EPUserDetailsViewController_alertAllowDownloadMessageAllow" = "User can now download, remove and update shared e-textbooks";
+"EPUserDetailsViewController_alertAllowDownloadMessageDeny" = "User cannot download, remove and update shared e-textbooks";
+"EPUserDetailsViewController_alertAllowDownloadOk" = "OK";
+"EPUserDetailsViewController_alertPasswordWeakTitle" = "Error";
+"EPUserDetailsViewController_alertPasswordWeakMessage" = "Password should have at least 6 characters";
+"EPUserDetailsViewController_alertPasswordWeakOk" = "OK";
+"EPUserDetailsViewController_alertPasswordChangedTitle" = "Information";
+"EPUserDetailsViewController_alertPasswordChangedMessage" = "Password was changed";
+"EPUserDetailsViewController_alertPasswordChangedOk" = "OK";
+"EPUserDetailsViewController_passwordTextFieldPlaceholder" = "Password";
+
+"EPAdminSettingsViewController_navigationBarTitle" = "App settings";
+"EPAdminSettingsViewController_cancelButtonTitle" = "Close";
+"EPAdminSettingsViewController_sectionUsers" = "Accounts";
+
+"EPAdminStaticSettingsViewController_sectionCreateAccountAtLoginScreen" = "Allow creating new accounts at login screen";
+"EPAdminStaticSettingsViewController_sectionCellular" = "Download e-textbooks using cellular network";
+"EPAdminStaticSettingsViewController_sectionCreateAdmin" = "Add new account";
+"EPAdminStaticSettingsViewController_sectionCreateUser" = "Add new account";
+"EPAdminStaticSettingsViewController_createAdminButtonTitle" = "Create admin account";
+"EPAdminStaticSettingsViewController_createUserButtonTitle" = "Create user account";
+"EPAdminStaticSettingsViewController_createNewAccountSegmentedControlAllow" = "Allow";
+"EPAdminStaticSettingsViewController_createNewAccountSegmentedControlDeny" = "Deny";
+"EPAdminStaticSettingsViewController_cellularNetworkSegmentedControlAllow" = "Allow";
+"EPAdminStaticSettingsViewController_cellularNetworkSegmentedControlDeny" = "Deny";
+
+"EPTextbookFilterViewController_navigationBarTitle" = "Change list filter";
+"EPTextbookFilterViewController_cellTitleNoFilter" = "Show all e-textbooks";
+"EPTextbookFilterViewController_cellTitleFilterByEducationLevel" = "Filter by education level";
+"EPTextbookFilterViewController_cellTitleFilterBySubject" = "Filter by subject";
+
+/* Accessability */
+"Accessability_downloadTextbook" = "Download e-textbook";
+"Accessability_updateTextbook" = "Update e-textbook";
+"Accessability_deleteTextbook" = "Remove e-textbook";
+"Accessability_readTextbook" = "Read e-textbook";
+"Accessability_bookmarksAndNotes" = "Bookmarks and notes";
+"Accessability_textbookDetails" = "E-textbook details";
+"Accessability_stopDownloadTextbook" = "Stop e-textbook download";
+"Accessability_stateDownloadingProgress" = "Download state %d%%";
+"Accessability_stateUnpackingProgress" = "Unpacking state %d%%";
+"Accessability_stateToDownload" = "E-textbook state, not downloaded";
+"Accessability_stateDownloading" = "E-textbook state, downloading";
+"Accessability_stateNormal" = "E-textbook state, downloaded";
+"Accessability_stateToUpdate" = "E-textbook state, to update";
+"Accessability_stateUpdating" = "E-textbook state, updating";
+"Accessability_options" = "Options";
+"Accessability_announcementDownloaded" = "E-textbook was downloaded";
+"Accessability_announcementUpdated" = "E-textbook was updated";
+"Accessability_announcementDeleted" = "E-textbook was removed";
+"Accessability_announcementRefreshed" = "Refresh completed";
+
+"Accessability_navigationFontMinus" = "Decrease font size";
+"Accessability_navigationFontPlus" = "Increase font size";
+"Accessability_navigationList" = "Table of contents";
+"Accessability_navigationArrowLeft" = "Previous module";
+"Accessability_navigationArrowRight" = "Next module";
+
+/* Notes */
+"EPNoteEditTableViewController_titleBookmark" = "Bookmark";
+"EPNoteEditTableViewController_titleNote" = "Note";
+"EPNoteEditTableViewController_cancelButton" = "Cancel";
+"EPNoteEditTableViewController_closeButton" = "Close";
+"EPNoteEditTableViewController_editButton" = "Edit";
+"EPNoteEditTableViewController_saveButton" = "Save";
+"EPNoteEditTableViewController_deleteButton" = "Delete";
+"EPNoteEditTableViewController_newNoteDefaultName" = "New note";
+"EPNoteEditTableViewController_headerContent" = "Note's content";
+"EPNoteEditTableViewController_headerName" = "Name";
+"EPNoteEditTableViewController_windowTitle" = "Note/bookmark";
+"EPNoteEditTableViewController_notesColor" = "Note color";
+"EPNoteEditTableViewController_bookmarkColor" = "Bookmark color";
+"EPTextbookPagerViewController_drawerManuLabel" = "Notes";
+"EPNotesDrawerListViewController_backButton" = "Back";
+"EPNotesDrawerListViewController_WarningTeachersOnlyTitle" = "Teacher's page";
+"EPNotesDrawerListViewController_WarningTeachersOnlyText" = "Students do not have access to that page";
+"EPTextbookPageContentViewController_addNoteMenuOption" = "Add note";
+"EPTextbookPageContentViewController_addBookmarkMenuOption" = "Add bookmark";
+"EPNotesDrawerListViewController_switchNotes" = "Notes";
+"EPNotesDrawerListViewController_switchBookmarks" = "Bookmarks";
+"EPNotesDrawerListViewController_labelNoNotes" = "No notes found";
+"EPNotesDrawerListViewController_labelNoBookmarks" = "No bookmarks found";
